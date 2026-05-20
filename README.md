@@ -53,3 +53,22 @@ El pipeline detecta automáticamente errores y valida la aplicación.
 
 - Andres Felipe Alarcon Abril
 
+## Flujo de ramas
+
+Durante la práctica se utilizó la rama principal `main`.
+
+Flujo implementado:
+
+1. Desarrollo local.
+2. Commit de cambios.
+3. Push al repositorio GitHub.
+4. GitHub Actions ejecuta pruebas automáticamente.
+5. Validación del pipeline.
+6. Corrección de errores detectados.
+
+En proyectos reales se recomienda usar ramas adicionales como:
+
+- feature/*
+- develop
+- release
+- hotfix
